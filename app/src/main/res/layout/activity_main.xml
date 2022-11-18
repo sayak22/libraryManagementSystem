@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#313335"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY
+        MANAGEMENT
+        SYSTEM"
+        style="@style/Heading"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <View
+        android:id="@+id/underline"
+        android:layout_width="200dp"
+        android:layout_height="4dp"
+        android:background="#00FF00"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_below="@+id/underline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please log-in to continue"
+        android:textSize="18sp"
+        android:textColor="#00FF00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+</RelativeLayout>
