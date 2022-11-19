@@ -5,23 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#313335"
+    android:background="#1e272e"
     android:gravity="center_vertical">
 
     <TextView
         android:id="@+id/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LIBRARY
-        MANAGEMENT
-        SYSTEM"
+        android:text="LIBRARY MANAGEMENT SYSTEM"
         style="@style/Heading"
         android:layout_marginLeft="20dp"/>
     <View
         android:id="@+id/underline"
         android:layout_width="200dp"
         android:layout_height="4dp"
-        android:background="#00FF00"
+        android:background="@drawable/roundedgreenbox"
         android:layout_below="@+id/heading"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"/>
@@ -33,17 +31,17 @@
         android:layout_height="wrap_content"
         android:text="Please log-in to continue"
         android:textSize="18sp"
-        android:textColor="#00FF00"
+        android:textColor="#0be881"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"/>
 
     <EditText
         android:id="@+id/email"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:padding="7dp"
+        android:layout_height="48dp"
+        android:padding="10dp"
         android:layout_below="@+id/logininstruction"
-        android:background="#9000FF00"
+        android:background="@drawable/roundedgreenbox"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="40dp"
@@ -56,9 +54,9 @@
         android:id="@+id/password"
         android:layout_below="@+id/email"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:padding="7dp"
-        android:background="#9000FF00"
+        android:layout_height="48dp"
+        android:padding="10dp"
+        android:background="@drawable/roundedgreenbox"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="20dp"
@@ -71,10 +69,21 @@
         android:layout_below="@id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="#00FF00"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#1e272e"
+        android:background="@drawable/roundedgreenbox"
         android:text="login" />
+    <TextView
+        android:id="@+id/signinbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="New user? sign up"
+        android:textColor="#0be881"
+        android:textSize="15sp"/>
 
 
 </RelativeLayout>
