@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">libraryManagementSystem</string>
+    <string-array name="usertype">
+        <item>student</item>
+        <item>faculty</item>
+    </string-array>
 </resources>

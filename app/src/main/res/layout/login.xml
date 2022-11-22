@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#1e272e"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    tools:context=".login">
 
     <TextView
         android:id="@+id/heading"
@@ -75,7 +75,7 @@
         android:background="@drawable/roundedgreenbox"
         android:text="login" />
     <TextView
-        android:id="@+id/signinbtn"
+        android:id="@+id/gotosignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginbtn"
@@ -84,6 +84,5 @@
         android:text="New user? sign up"
         android:textColor="#0be881"
         android:textSize="15sp"/>
-
 
 </RelativeLayout>
